@@ -1,0 +1,54 @@
+((entry level OR novice OR junior OR newcomers) AND (programmers OR software developers OR software engineers))
+
+AND (onboarding OR training OR mentoring)
+
+AND (software industry)
+
+
+((entry level OR novice OR junior OR newcomers) AND (programmers OR software developers OR software engineers))
+AND (onboarding OR training OR mentoring)
+AND (software engineering OR software industry)
+
+->
+tällä tulee myös YODA mukaan (https://ieeexplore-ieee-org.ezproxy.jyu.fi/document/6606710), mutta tulosten määrä nousee tosi paljon. 
+-> tällä tulee myös erittäin lupaavan oloinen https://ieeexplore-ieee-org.ezproxy.jyu.fi/document/8870189, joten käytetään tätä!!
+
+
+IEEE: 25, joista lupaavan oloisia 5
+Scopus: 4, joistä yksikään ei relevantti
+ACM (hakulauseke ks. alla): 5, joista lupaavia 3
+
+----------------------------------------
+
+ACM: 150
+
+"query": { Title:(entry level OR novice OR junior OR newcomers) AND Title:(programmers OR software developers OR software engineers) AND Title:(onboarding OR training OR mentoring) AND (Title:(software industry) OR Title:(software engineering)) } "filter": { ACM Content: DL }
+
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+
+((entry level OR novice OR junior OR newcomers OR learning) AND (programmers OR software developers OR software engineers))
+
+AND (onboarding OR training OR mentoring)
+
+AND software
+
+AND (industry OR company)
+
+"query": { Title:(entry level OR novice OR junior OR newcomers OR learning) AND Title:(programmers OR software developers OR software engineers) AND Title:(onboarding OR training OR mentoring) AND Title:(software industry) }
+"filter": { ACM Content: DL }
+
+
+IEEE: 1,310, joista 218 journaleissa
+Scopus: 747 
+ACM: 231
+
+new hires
+----------------------------------------
+----------------------------------------
+----------------------------------------
+"query": { Title:(entry level OR novice OR junior OR newcomer OR learning OR new hire) AND Title:(programmers OR software developers OR software engineers) AND Title:(onboarding OR training OR mentoring OR transition OR adopting) AND Title:(software industry) }
+"filter": { ACM Content: DL }
+
