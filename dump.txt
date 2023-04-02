@@ -52,3 +52,51 @@ new hires
 "query": { Title:(entry level OR novice OR junior OR newcomer OR learning OR new hire) AND Title:(programmers OR software developers OR software engineers) AND Title:(onboarding OR training OR mentoring OR transition OR adopting) AND Title:(software industry) }
 "filter": { ACM Content: DL }
 
+------
+\begin{center}
+\begin{tabular}{||c c c c||} 
+ \hline
+ Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
+ \hline\hline
+ 1 & 6 & 87837 & 787 \\ 
+ \hline
+ 2 & 7 & 78 & 5415 \\
+ \hline
+ 3 & 545 & 778 & 7507 \\
+ \hline
+ 4 & 545 & 18744 & 7560 \\
+ \hline
+ 5 & 88 & 788 & 6344 \\ [1ex] 
+ \hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{||m{7em} | m{12em} ||} 
+ \hline
+ Col1 & Col2  \\ [1ex] 
+ \hline\hline
+ 1 & 6  \\ 
+ \hline
+ \textcite{matturro-ym-2017} & Difficulties of Newcomers Joining Software Projects Already in Execution \\
+ \hline
+ 3 & 545 \\
+ \hline
+ 4 & 545 \\
+ \hline
+ 5 & 88 \\ [1ex] 
+ \hline
+\end{tabular}
+\end{center}
+
+\begin{adjustbox}{width=\textwidth,totalheight=\textheight,keepaspectratio}
+\begin{tabularx}{\linewidth}{@{}>{\RaggedRight}p{2.5cm}*{6}{X}@{}}
+\toprule
+\textbf{Column 1} & \textbf{Column 2} & \textbf{Column 3} & \textbf{Column 4} & \textbf{Column 5} & \textbf{Column 6} & \textbf{Column 7}\\
+\midrule
+\lipsum[2][1-2] & \lipsum[3][1-3] & \lipsum[4][1-4] & \lipsum[5][1-2] & \lipsum[6][1-3] & \lipsum[7][1-4] & \lipsum[8][1-2]\\
+\midrule
+\lipsum[2][3-4] & \lipsum[3][4-5] & \lipsum[4][5-6] & \lipsum[5][3-4] & \lipsum[6][4-5] & \lipsum[7][5-6] & \lipsum[8][3-4]\\
+\bottomrule
+\end{tabularx}
+\end{adjustbox}
