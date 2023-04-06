@@ -100,3 +100,58 @@ new hires
 \bottomrule
 \end{tabularx}
 \end{adjustbox}
+
+
+\begin{longtblr}[
+  caption = {Long Title},
+  label = {tab:test},
+]{
+  colspec = {llll},
+  rowhead = 1,
+  hlines,
+} 
+Head & Head \\
+foo  & bar \\
+foo  & bar \\
+foo  & bar \\
+    \caption{longtblr test}
+\label{tbl:srt-ulottuvuudet-ja-niiden-kaytannot-longtblr}
+\end{longtblr}
+
+The quick brown fox jumps over the lazy dog, ks. tarkemmn kuvio \ref{tbl:srt-ulottuvuudet-ja-niiden-kaytannot-longtblr}, test test
+
+
+
+The quick brown fox jumps over the lazy dog. ks. tarkemmin kuvio \ref{tbl:srt-ulottuvuudet-ja-niiden-kaytannot-longtable},  test test
+
+
+\begin{longtable}{llll}
+\toprule
+Header & \\
+\midrule
+\endhead
+foo1 & \\*
+\midrule
+foo2 & \\*
+\midrule
+foo3 & \\*
+\bottomrule
+    \caption{longtable test}
+\label{tbl:srt-ulottuvuudet-ja-niiden-kaytannot-longtable}
+\end{longtable}
+
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+
+\begin{longtable}{>{\raggedright}p{7cm}>{\centering}p{7cm}}
+\toprule
+Header & \\
+\midrule
+\endhead
+foo & \\*
+\midrule
+foo & \\*
+\midrule
+foo & \\*
+\bottomrule
+\end{longtable}
