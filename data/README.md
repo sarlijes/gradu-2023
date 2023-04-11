@@ -1,6 +1,6 @@
-# Selitteet katsauksen datalle (.csv-tiedosto)
+# Selitteet katsauksen csv-datalle
 
-CSV-tiedosto sisältää kaiken katsauksen aikana kerätyn datan. Valtaosa kentistä (esimerkiksi Item Type, Publication Year, Author ja Title) on luotu automaattisesti Notion-alustalla bibtex-tiedoston perusteella. Ne vastaavat siis katsauksessa käytetyistä tietokannoista peräisin olevia, bibtex-viitetiedoissa olleita kenttiä. Tutkielman laatijan lisäämät kentät alkavat alaviivalla (_), esimerkiksi _kohderyhmä ja _twiitti. Näissä 
+CSV-tiedosto sisältää kaiken katsauksen aikana kerätyn datan. Valtaosa kentistä (esimerkiksi Item Type, Publication Year, Author ja Title) on luotu automaattisesti Notion-alustalla bibtex-tiedoston perusteella. Ne vastaavat siis katsauksessa käytetyistä tietokannoista peräisin olevia, bibtex-viitetiedoissa olleita kenttiä. Tutkielman laatijan lisäämät kentät alkavat alaviivalla (_), esimerkiksi _kohderyhmä ja _twiitti. Alla on esitelty csv-tiedoston kentät siinä järjestyksessä, kun ne tiedostossa ilmenevät.
 
 ## Yksilöivä tunniste
 
