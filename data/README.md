@@ -13,7 +13,9 @@ Item Type,Publication Year,Author,Title,Publication Title,ISBN,ISSN,DOI,Url,Abst
 ## Tutkielman laatijan lisäämät kentät selitteineen
 
 _data_extraction_status: tutkimusprotokollan kehittelyssä hyödynnetty status
+
 _hylkäyskriteeri: hylättyjen artikkelien osalta hylkäämissyy
+
 _jatkotutkimusaiheet: tekstikenttä, artikkelin kirjoittajien mainitsemat jatkotutkimusaiheet
 _kohderyhmä: artikkelissa mainitut tutkimuksen kohderyhmät pilkulla eroteltuina
 _konteksti: artikkelissa mainitut kontekstit pilkulla eroteltuina
