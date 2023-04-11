@@ -17,17 +17,31 @@ _data_extraction_status: tutkimusprotokollan kehittelyssä hyödynnetty status
 _hylkäyskriteeri: hylättyjen artikkelien osalta hylkäämissyy
 
 _jatkotutkimusaiheet: tekstikenttä, artikkelin kirjoittajien mainitsemat jatkotutkimusaiheet
+
 _kohderyhmä: artikkelissa mainitut tutkimuksen kohderyhmät pilkulla eroteltuina
+
 _konteksti: artikkelissa mainitut kontekstit pilkulla eroteltuina
+
 _mukana_tiedokeruupilotissa: statusmerkintä, hyödynnetty tutkimusprotokollan kehittelyssä
+
 _n: tutkimuskohteiden määrä
+
 _perehdytyskäytännöt: artikkelissa mainitut perehdytyskäytännöt
+
 _snowballing tehty: katsaukseen valittujen ensimmäisen 16 artikkelin osalta snowballing-täydennyskerroksen tilanne
+
 _suositukset: artikkelissa mainitut perehdyttämistä koskevat suositukset
+
 _test_retest: tieto siitä, onko artikkeli mainittu satunnaisarvioitavaksi katsauksen tutkimusprotokollan arviointia varten
+
 _test_retest_tarkempi_syy_hylkäykselle: tekstikenttä, katsauksen tutkimusprotokollan arviointia varten
+
 _tulokset: artikkelissa mainitut tutkimustulokset
+
 _tutkimusmenetelmät: artikkelissa mainitut menetelmät pilkulla eroteltuina 
+
 _tutkimustyyppi: artikkelissa mainitut tutkimustyypit pilkulla eroteltuina
+
 _twiitti: lyhyt kuvaus artikkelista
+
 _valittuKatsaukseen: tieto siitä, onko artikkeli valittu katsaukseen
