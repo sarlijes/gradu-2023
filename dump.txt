@@ -155,3 +155,24 @@ foo & \\*
 foo & \\*
 \bottomrule
 \end{longtable}
+
+Rodegho: ei (paitsi mainitsee jonkun jota kiittelee)
+Azanza: ei
+Ju:  ei
+Britto 2020: ei
+Yates ym: toteavat että sessioiden tallentamiseen kysyttiin osallistujilta suostumus. kyselylomakkeessa mainitaan, että vastaaja saa olla vastaamatta kysymyksiin tai vetäytyä tutkimuksesta milloin vain. arvioitu validiteettiä
+Moe ym: ei, vaikka analysoivat slack-logeja
+Kumar Wallace:      ei
+Viviani ym:         ei
+Buchan ym:          arvioitu validiteettiä
+Tuzun ym: :          arvioitu validiteettiä lyhyesti
+Matturro:               arvioitu validiteettiä lyhyesti
+Britto ym 2017:         arvioitu validiteettiä
+Pham ym:                arvioitu validiteettiä
+Kumar ym: 2016:         ei
+Shannon Pool 2016:      ei
+Viana ym 2014:          arvioitu validiteettiä lyhyesti
+Begel Hemphill 2011:    ei
+Kulkarni ym2010:         ei
+Johnson Senger 2010:    ei, paitsi että yks virma vaan
+bjornson-dingsoy 2005   ei
