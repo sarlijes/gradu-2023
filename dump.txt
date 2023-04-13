@@ -231,3 +231,37 @@ bjornson-dingsoy 2005   ei
 \caption{Artikkeleissa havaittujen perehdytyskäytäntöjen sosialisaatioresurssiulottuvuudet TODO täytä}
 \label{tbl:ulottuvuusmatriisi}
 \end{table}
+
+
+ \begin{longtable}[c]{| c | c |}
+ \caption{Long table caption.}\\
+
+ \hline
+ \multicolumn{2}{| c |}{Begin of Table}\\
+ \hline
+ Something & something else\\
+ \hline
+ \endfirsthead
+
+ \hline
+ \multicolumn{2}{|c|}{Continuation of Table \ref{long}}\\
+ \hline
+ Something & something else\\
+ \hline
+ \endhead
+
+ \hline
+ \endfoot
+
+ \hline
+ \multicolumn{2}{| c |}{End of Table}\\
+ \hline\hline
+ \endlastfoot
+
+ Lots of lines & like this\\
+ Lots of lines & like this\\
+ Lots of lines & like this\\
+ Lots of lines & like this\\
+ 
+ \label{tbl:longtable-ulottuvuusmatriisi}
+ \end{longtable}
