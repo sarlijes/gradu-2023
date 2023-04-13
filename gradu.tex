@@ -15,6 +15,7 @@
 \usepackage{adjustbox}
 \usepackage{lipsum}
 \usepackage{longtable}
+\usepackage{array}
 
 % HUOM! Tämän tulee olla viimeinen \usepackage koko dokumentissa!
 \usepackage[bookmarksopen,bookmarksnumbered,linktocpage]{hyperref}
@@ -375,78 +376,68 @@ Artikkelit on julkaistu vuosina 2005-2021. Valtaosa artikkeleista, viisitoista k
     \label{kuvio:kappalemaarat-julkaisuvuosittain}
 \end{figure}
 
+\begin{footnotesize}
+    \begin{longtable}{ m{4cm}  m{11cm} }
+    \hline
+        \hline
+            & Artikkelin nimi \\
+        \hline
+    \endfirsthead
 
+    \hline
+        \hline
+            & Artikkelin nimi \\
+        \hline
+    \endhead
+ \hline
+ \endfoot
 
+ \caption{Artikkelit \label{tbl:artikkelit}}
+ \endlastfoot
 
-\begin{table}\fontsize{10}{7.2}\selectfont
-\begin{tabular}{p{3.5cm}p{12cm}}
-        & Artikkelin nimi  \\
-\toprule
-
- \textcite{rodeghero-ym-2021} & Please Turn Your Cameras On: Remote Onboarding of Software Developers during a Pandemic \\
-
-\midrule
+\textcite{rodeghero-ym-2021} & Please Turn Your Cameras On: Remote Onboarding of Software Developers during a Pandemic \\
+\hline
 \textcite{azanza-ym-2021} & Onboarding in Software Product Lines: Concept Maps as Welcome Guides \\
-
-\midrule
+\hline
 \textcite{ju-ym-2021} & A Case Study of Onboarding in Software Teams: Tasks and Strategies \\
-
-\midrule
+\hline
 \textcite{britto-ym-2020} & Evaluating and strategizing the onboarding of software developers in large-scale globally distributed projects\\
-
-\midrule
+\hline
 \textcite{yates-ym-2020} & Characterizing the transfer of program comprehension in onboarding: an information-push perspective\\
-
-\midrule
+\hline
 \textcite{moe-ym-2020} & Studying Onboarding in Distributed Software Teams: A Case Study and Guidelines \\
-
-\midrule
+\hline
 \textcite{kumar-wallace-2019} & Patterns of Identity and Interaction in an Agile Community of Practice \\
-
-\midrule
+\hline
 \textcite{viviani-murphy-2019} & Reflections on Onboarding Practices in Mid-Sized Companies \\
-
-\midrule
+\hline
 \textcite{buchan-ym-2019} & Effective team onboarding in Agile software development: techniques and goals \\
-
-\midrule
-\textcite{tuzun-ym-2018} & Are computer science and engineering graduates ready for the software industry?: experiences from an industrial student training program \\
-
-\midrule
+\hline
+\textcite{tuzun-ym-2018} & Are computer science and engineering graduates ready for the software industry? Experiences from an industrial student training program \\
+\hline
 \textcite{matturro-ym-2017} & Difficulties of Newcomers Joining Software Projects Already in Execution \\
-
-\midrule
+\hline
 \textcite{britto-ym-2017} & Onboarding software developers and teams in three globally distributed legacy projects: A multi-case study \\
-
-\midrule
+\hline
 \textcite{pham-ym-2017} & Onboarding inexperienced developers: struggles and perceptions regarding automated testing \\
-
-\midrule
+\hline
 \textcite{kumar-ym-2016} & Mentoring trajectories in an evolving agile workplace \\
-
-\midrule
+\hline
 \textcite{shannon-pool-2016} & Agile Processes, in Software Engineering, and Extreme Programming \\
-
-\midrule
+\hline
 \textcite{viana-ym-2014} & Knowledge transfer between senior and novice software engineers: A qualitative analysis \\
-
-\midrule
+\hline
 \textcite{hemphill-begel-2011} & Not Seen and Not Heard: Onboarding Challenges in Newly Virtual Teams \\
-
-\midrule
+\hline
 \textcite{kulkarni-ym-2010} & From Student to Software Engineer in the Indian IT Industry: A Survey of Training \\
-
-\midrule
+\hline
  \textcite{johnson-senges-2010} & Learning to be a programmer in a complex organization: A case study on practice-based learning during the onboarding process at Google\\
-
-\midrule
+\hline
 \textcite{bjornson-dingsøyr-2005} & A Study of a Mentoring Program for Knowledge Transfer in a Small Software Consultancy Company \\
 
-\bottomrule
-\label{tbl:artikkelit}
-\end{tabular}
-\caption{Artikkelit}
-\end{table}
+\hline
+\end{longtable}
+\end{footnotesize}
 
 \section{Perehdytyskäytännöt}
 
