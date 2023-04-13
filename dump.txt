@@ -176,3 +176,58 @@ Begel Hemphill 2011:    ei
 Kulkarni ym2010:         ei
 Johnson Senger 2010:    ei, paitsi että yks virma vaan
 bjornson-dingsoy 2005   ei
+
+
+\begin{table}[h]
+    \scriptsize
+    \begin{tabular}{llllllllllllllll}
+
+\toprule
+\textbf{Artikkeli} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} & \textbf{14} & \textbf{17} & \textbf{18} \\
+
+\midrule
+\textcite{rodeghero-ym-2021} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{azanza-ym-2021} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{ju-ym-2021} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{britto-ym-2020} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{yates-ym-2020} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{moe-ym-2020} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{kumar-wallace-2019} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{viviani-murphy-2019} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{buchan-ym-2019} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{tuzun-ym-2018} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{matturro-ym-2017} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{britto-ym-2017} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{pham-ym-2017} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{kumar-ym-2016} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{shannon-pool-2016} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{viana-ym-2014} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{hemphill-begel-2011} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{kulkarni-ym-2010} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{johnson-senges-2010} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+\textcite{bjornson-dingsøyr-2005} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\bottomrule
+
+\end{tabular}
+\caption{Artikkeleissa havaittujen perehdytyskäytäntöjen sosialisaatioresurssiulottuvuudet TODO täytä}
+\label{tbl:ulottuvuusmatriisi}
+\end{table}
