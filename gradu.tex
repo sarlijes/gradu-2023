@@ -104,34 +104,57 @@ Nykyisin ohjelmistotekniikkaa käytetään mitä erilaisimmissa yhteyksissä. Es
 \section{Tulokkaiden haasteet ohjelmistoalalla}
 \label{luku-tulokkaiden-haasteet}
 
-Ohjelmistokehittäjät kohtaavat ensimmäisissä työpaikoissaan monenlaisia haasteita. Esimerkiksi \textcite{begel-simon-2008} raportoivat haasteita viidellä osa-alueella: kommunikaatio, yhteistoiminta, tekninen taito, kognitio ja orientoituminen. He toteavat, että kommunikaation haasteet liittyvät erityisesti siihen, että tulokkaat eivät pyydä apua tai kysy tarkentavia kysymyksiä kyllin aikaisin. Myös \textcite{radermacher-ym-2015} toteavat vastavalmistuneiden ohjelmistokehittäjien jättävän usein kysymyksiä esittämättä välttääkseen näyttämästä osaamattomuuttaan ja \textcite{craig-ym-2018} kertovat tulokkailla olevan vaikeuksia ymmärtää, keneltä kollegalta mitäkin kysymyksiä pitäisi kysyä. \textcite{begel-simon-2008} jatkavat, että vasta-alkajilla on vaikeuksia hahmottaa kuhunkin tilanteeseen sopivaa detaljien tasoa: toisinaan yksityiskohtaisen tiedon puute aiheuttaa väärinkäsityksiä ja toisinaan taas yksityiskohtiin takertuminen estää aiheen laajempaa käsittelyä. Myös \textcite{radermacher-ym-2015} toteavat vasta-alkajien kokevan usein haasteita niin kirjallisessa, suullisessa kuin asiakkaidenkin kanssa tapahtuvassa kommunikoimisessa. \textcite{moe-ym-2020} taas mainitsevat globaalisti hajautetun ohjelmistokehityksen osalta myös haasteet viestintätyökalujen toimivuudessa.
+Ohjelmistokehittäjät kohtaavat ensimmäisissä työpaikoissaan monenlaisia haasteita eri osa-alueilla. Näitä ovat tiedonhankinta, dokumentaatio, kohdealueen tuntemus, kognitio, ammattiosaaminen sekä kommunikointi. 
 
-\textcite{begel-simon-2008} toteavat, että tulokkaiden yhteistoimintaan liittyvät ongelmat liittyvät työskentelyyn suurissa tiimeissä tai useiden tiimien kanssa. Myös \textcite{britto-ym-2019} havaitsivat, että tutkitut ohjelmistokehittäjät työskentelivät jatkuvasti vaihtuvissa tiimeissä, jolloin ryhmäoppiminen hankaloitui, mikä vaikutti ohjelmistokehittäjien tehokkuuteen. \textcite{begel-simon-2008} kertovat, että tulokkaiden tulee oppia tiettyä assertiivisuutta eli jämäkkyyttä, jotta he pystyvät sekä rajaamaan omaa työtään (sen sijaan että ottaisivat kollegoidensa pyynnöstä uusia työtehtäviä välittömästi työn alle) että toimimaan aktiivisesti saadakseen tuottamansa ohjelmistokoodin katselmoiduksi (sen sijaan että katselmointi jäisi tekemättä kollegoiden muiden kiireiden vuoksi). \textcite{craig-ym-2018} mainitsevat myös yhteistyöhön liittyvät haasteet, jotka johtuvat tulokkaiden opiskeluaikanaan saamasta niukasta ryhmätyöskentelykokemuksesta.
+\textbf{Tiedonhankinta} on tulokkaille haastavaa, sillä heidän on vaikea kysyä oikeita kysymyksiä oikea-aikaisesti, kysyä riittävä määrä tarkentavia kysymyksiä ja ymmärtää, keneltä eri asioista ylipäätään kannattaa kysyä %
+\parencites%
+    {ju-ym-2021}%
+    {britto-ym-2019}%
+    {craig-ym-2018}%
+    {matturro-ym-2017}%
+    {dagenais-ym-2010}%
+    {begel-simon-2008}%
+\relax
+%
+.  Tulokkaan voi olla myös vaikea huomata jääneensä jumiin ja tarvitsevansa apua \parencite{begel-simon-2008}. Osa tulokkaista myös jättää  kysymyksiä esittämättä välttääkseen näyttämästä osaamattomuuttaan 
+\parencites%
+    {radermacher-ym-2015}%
+    {begel-simon-2008}%
+\relax
+%.  
+ \textcite{dagenais-ym-2010} toteavat, että usein käy myös niin, että henkilö joka olisi paras vastaamaan kysymykseen, ei enää työskentele organisaatiossa. Tässä tilanteessa kattava tekninen dokumentaatio voisi olla avuksi, mutta sitä ei välttämättä ole saatavilla. Haasteita voi aiheuttaa niukka, kokonaan puuttuva, vaikeaselkoisesti jäsennetty, vanhentunut tai ylimalkainen dokumentaatio %
+\parencites%
+    {matturro-ym-2017}%
+    {dagenais-ym-2010}%
+    {begel-simon-2008}%
+\relax
+%-
+ Ohjelmiston vaatimusmäärittely on jopa voitu jättää kokonaan dokumentoimatta \parencite{matturro-ym-2017}.
 
-Tulokkaiden riittämättömät tekniset taidot taas aiheuttavat ongelmia versionhallinnan käyttämisessä ja ohjelmistojen testaamisessa %
+\textcite{matturro-ym-2017} sekä \textcite{dagenais-ym-2010} toteavat, että puutteet kehitettävän ohjelmiston \textbf{kohdealueen tuntemuksessa} aiheuttavat tulokkaille pulmia ja heidän voi olla vaikea hahmottaa, mikä ohjelmiston tarkoitus ylipäätään on.
+
+\textbf{Ammattiosaamisen puutteet} vaikeuttavat myös tulokkaiden työskentelyä. Kirjallisuudessa %
 \parencites%
     {craig-ym-2018}%
-    {radermacher-ym-2015}
+    {matturro-ym-2017}%
+    {dagenais-ym-2010}%
     {begel-simon-2008}%
-\relax.
-%.
-Olemassaolevan lähdekoodin suuri määrä, sen kompleksisuus ja siinä navigoiminen aiheuttavat myös pulmia tulokkaille %
+\relax
+% 
+ on mainittu erityisesti versionhallintaan, ohjelmistotestaukseen, ohjelmistokoodissa navigoimiseen, paikallisen kehitysympäristön konfigurointiin, ohjelmistokehityksen hallintatyökalujen käyttöön ja ohjelmistokehitysprosesseihin liittyvien osaamisen puutteita. Olemassaolevan lähdekoodin suuri määrä, sen kompleksisuus ja sen nk. legacy-piirteisyys aiheuttavat myös pulmia tulokkaille %
 \parencites%
     {britto-ym-2019}%
+    {viviani-murphy-2019}%
     {craig-ym-2018}
     {begel-simon-2008}%
 \relax.
 %.
+\textcite{craig-ym-2018} mainitsevat myös yhteistyöhön liittyvät haasteet, jotka johtuvat tulokkaiden opiskeluaikanaan saamasta niukasta ryhmätyöskentelykokemuksesta.
 
-Perehtyminen aiheuttaa tulokkaille myös kognitiivista kuormitusta usein eri tavoin. Heidän on vaikea tunnistaa, milloin he ovat jääneet jumiin, eivätkä pysty jatkamaan tehtäväänsä ilman apua \parencite{begel-simon-2008}. Muistiinpanojen ja muiden dokumenttien laatiminen ja organisointi on myös haastavaa %
-\parencites%
-    {radermacher-ym-2015}%
-    {begel-simon-2008}%
-\relax.
-%
-Jos perehdytys tapahtuu pienissä, strukturoimattomissa hetkissä muun työn ohella, oppiminen tapahtuu sattumanvaraisesti ja vailla jäsennystä \parencite{begel-simon-2008}. \textcite{craig-ym-2018} ja \textcite{britto-ym-2019} huomauttavat, että kehitettävien tietojärjestelmien suuri koko ja monimutkaisuus aiheuttavat haasteita tulokkaiden työskentelylle.
+Perehtyminen aiheuttaa tulokkaille \textbf{kognitiivista kuormitusta} eri tavoin. \textcite{dagenais-ym-2010} sekä \textcite{begel-simon-2008} korostavat, että tulokkaan on omaksuttava suuria määriä tietoja kerralla. Muistiinpanojen ja muiden dokumenttien laatiminen ja organisointi on myös haastavaa \parencite{radermacher-ym-2015}. Jos perehdytys tapahtuu pienissä, strukturoimattomissa hetkissä muun työn ohella, oppiminen tapahtuu sattumanvaraisesti ja vailla jäsennystä \parencite{begel-simon-2008}. \textcite{craig-ym-2018} ja \textcite{britto-ym-2019} huomauttavat, että kehitettävien tietojärjestelmien suuri koko ja monimutkaisuus aiheuttavat haasteita tulokkaiden työskentelylle. Ohjelmistokehitystiimit saattavat myös muuttua jatkuvasti, mikä vaikeuttaa tulokkaiden oppimista \parencite{britto-ym-2019}.
 
-Työtehtäviin orientoitumista voi vaikeuttaa vähäinen tai heikko dokumentaatio, massiivinen olemassaolevan lähdekoodin määrä ja jopa se, ettei uusi työntekijä tunne työryhmänsä jäseniä lainkaan \parencite{begel-simon-2008}. He kuvaavat esimerkiksi tilannetta, jossa eräs vasta-alkaja käytti paljon aikaa lukemalla yrityksen sisäisiä asiakirjoja etsiessään tietoa siitä, mitä hänen työryhmässään oikeastaan edes tehdään. Myös \textcite{britto-ym-2019} ja \textcite{ju-ym-2021} toteavat dokumentaation puutteiden vaikeuttavan tulokkaiden työskentelyä.
+\textcite{radermacher-ym-2015} toteavat tulokkaiden kokevan haasteita niin kirjallisessa, suullisessa kuin asiakkaidenkin kanssa tapahtuvassa \textbf{kommunikoinnissa}. \textcite{begel-simon-2008} mainitsevat, että vasta-alkajilla on vaikeuksia hahmottaa kuhunkin tilanteeseen sopivaa detaljien tasoa: toisinaan yksityiskohtaisen tiedon puute aiheuttaa väärinkäsityksiä ja toisinaan taas yksityiskohtiin takertuminen estää aiheen laajempaa käsittelyä. \textcite{begel-simon-2008} myös kertovat, että tulokkaiden tulee oppia tiettyä assertiivisuutta eli jämäkkyyttä, jotta he pystyvät sekä rajaamaan omaa työtään (sen sijaan että ottaisivat kollegoidensa pyynnöstä uusia työtehtäviä välittömästi työn alle) että toimimaan aktiivisesti saadakseen tuottamansa ohjelmistokoodin katselmoiduksi (sen sijaan että katselmointi jäisi tekemättä kollegoiden muiden kiireiden vuoksi). \textcite{moe-ym-2020} taas mainitsevat globaalisti hajautetun ohjelmistokehityksen osalta myös haasteet viestintätyökalujen toimivuudessa. \textcite{matturro-ym-2017} toteavat myös, että ohjelmistotiimin kokeneet jäsenet saattavat antaa tulokkaalle niukasti tietoa kehitettävään ohjelmistoon liittyvistä muutoksista, ongelmista ja tehdyistä päätöksistä. 
+
 
 %Suora lainaus: "Another solution is to identify the areas within your own companies where newly hired, recent graduates struggle and to develop an orientation program that is specifically designed to tackle those problems, whether they are related to maintaining professional conduct or developing training material for the different software tools used at the company so that new employees have a quick reference while first learning to work with a new or different tool." \textcite{radermacher-ym-2015}
 
