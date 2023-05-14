@@ -429,7 +429,8 @@ Tietuetta täydennettiin seuraavilla tiedoilla:
     \item jatkotutkimusaiheet
     \item tutkimuksen kohderyhmä
     \item perehdyttämisen konteksti
-    \item kohdehenkilöiden lukumäärä (mikäli sovellettavissa)
+    \item tutkimuksen aineiston koko
+    \item tutkimuksen kohdehenkilöiden työskentelymaa tai -alue
     \item artikkelissa mainitut perehdytyskäytännöt
     \item tiedonkeruun status (tiedot kerätty / kesken / ei kerätty)
     \item tutkimuksen tulokset
@@ -456,7 +457,25 @@ TODO metateksti
 
 \section{Katsaukseen valitut artikkelit}
 
-Tähän systemaattiseen kirjallisuuskatsaukseen valittiin siis yhteensä 20 artikkelia. Artikkelit on esitelty taulukossa \ref{tbl:artikkelit}. Artikkeleista kuusi oli ilmestynyt tietojenkäsittelytieteen alan journal-lehdissä. Kolmetoista artikkelia taas oli julkaistu tieteellisten konferenssien kokoomateoksissa (engl. \textit{proceedings}). Yksi artikkeli \parencite{hemphill-begel-2011} on ilmestynyt Microsoft Technical Report -julkaisusarjassa. Tämä artikkeli havaittiin snowballing-kierroksen aikana. Sitä ei ole ole julkaistu tieteellisessä julkaisussa, mutta kirjoittajiensa tieteellisten ansioiden vuoksi sen sisällyttämistä katsaukseen arvioitiin silti. Artikkelin todettiin tuovan merkittävää tietoa perehdyttämisestä virtuaalisissa tiimeissä, mikä on erityisen oleellista etätyön lisäännyttyä, joten artikkeli sisällytettiin katsaukseen.
+Tähän systemaattiseen kirjallisuuskatsaukseen valittiin siis yhteensä 20 artikkelia. Artikkelit on esitelty taulukossa \ref{tbl:artikkelit}. Niissä käsitellään perehdyttämistä eri näkökulmista. Esimerkiksi \textcite{johnson-senges-2010} kertovat Googlen ohjelmistokehittäjien perehdytyskäytännöistä, \textcite{britto-ym-2020} käsittelevät aihetta globaalisti hajautetussa ohjelmistokehityksessä ja \textcite{bjornson-dingsøyr-2005} pienessä konsulttiyrityksessä. Artikkelit on julkaistu vuosina 2005-–2021. Valtaosa artikkeleista, viisitoista kappaletta, on julkaistu vuoden 2015 jälkeen. Tarkat kappalemäärät julkaisuvuosittain on esitelty kuviossa \ref{kuvio:kappalemaarat-julkaisuvuosittain-tiivis}. Yhdysvalloista mukana oli kahdeksan tutkimusta, Intiasta neljä ja Kanadasta kolme (ks. kuvio \ref{kuvio:maat}).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{media/kappalemaarat-julkaisuvuosittain-tiivis.png}
+    \caption{Artikkeleiden kappalemäärät julkaisuvuosittain}
+    \label{kuvio:kappalemaarat-julkaisuvuosittain-tiivis}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{media/maat.png}
+    \caption{Tutkimuskohteiden työskentelymaat}
+    \label{kuvio:maat}
+\end{figure}
+
+Artikkeleista kuusi oli ilmestynyt tietojenkäsittelytieteen alan journal-lehdissä. Kolmetoista artikkelia taas oli julkaistu tieteellisten konferenssien kokoomateoksissa (engl. \textit{proceedings}). Yksi artikkeli \parencite{hemphill-begel-2011} on ilmestynyt Microsoft Technical Report -julkaisusarjassa. Tämä artikkeli havaittiin snowballing-kierroksen aikana. Sitä ei ole ole julkaistu tieteellisessä julkaisussa, mutta kirjoittajiensa tieteellisten ansioiden vuoksi sen sisällyttämistä katsaukseen arvioitiin silti. Artikkelin todettiin tuovan merkittävää tietoa perehdyttämisestä virtuaalisissa tiimeissä, mikä on erityisen oleellista etätyön lisäännyttyä, joten artikkeli sisällytettiin katsaukseen.
+
+Tutkimusten lähdeaineistojen koko eli datapisteiden määrä vaihteli kolmen \parencite{kulkarni-ym-2010} ja 267 datapisteen \parencite{rodeghero-ym-2021} välillä, keskiarvon ollessa 45. Yhteensä katsauksen artikkeleissa oli 765 datapistettä eli haastateltua henkilöä, kyselyyn vastaajaa tai yhdessä tutkimuksessa myös havainnoitua perehdytyssessiota. Sessio, johon osallistui useita henkilöitä, on tässä siis laskettu yhdeksi datapisteeksi. Sessioita havainnoitiin vain yhdessä tutkimuksessa. 
 
 \begin{footnotesize}
     \begin{longtable}{ m{4cm}  m{10.5cm} }
@@ -521,16 +540,6 @@ Tähän systemaattiseen kirjallisuuskatsaukseen valittiin siis yhteensä 20 arti
 \end{longtable}
 \end{footnotesize}
 
-Artikkelit on julkaistu vuosina 2005-–2021. Valtaosa artikkeleista, viisitoista kappaletta, on julkaistu vuoden 2015 jälkeen. Tarkat kappalemäärät julkaisuvuosittain on esitelty kuviossa \ref{kuvio:kappalemaarat-julkaisuvuosittain-tiivis}.
-
-Tutkimusten lähdeaineistojen koko eli datapisteiden määrä vaihteli kolmen \parencite{kulkarni-ym-2010} ja 267 datapisteen \parencite{rodeghero-ym-2021} välillä, keskiarvon ollessa 45. Yhteensä katsauksen artikkeleissa oli 765 datapistettä eli haastateltua henkilöä, kyselyyn vastaajaa tai yhdessä tutkimuksessa myös havainnoitua perehdytyssessiota. Sessio, johon osallistui useita henkilöitä, on tässä siis laskettu yhdeksi datapisteeksi. Sessioita havainnoitiin vain yhdessä tutkimuksessa.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{media/kappalemaarat-julkaisuvuosittain-tiivis.png}
-    \caption{Artikkeleiden kappalemäärät julkaisuvuosittain}
-    \label{kuvio:kappalemaarat-julkaisuvuosittain-tiivis}
-\end{figure}
 
 \section{Perehdytyskäytännöt}
 \label{luku-tulokset-kaytannot}
